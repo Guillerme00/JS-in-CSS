@@ -1,14 +1,15 @@
 import Title from '../../components/Title'
+import Paragraph from '../../components/Paragraph'
 
 const About = () => (
   <section>
-    <Title>About me</Title>
-    <p>
+    <Title fontSize={16}>About me</Title>
+    <Paragraph>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab dolorum,
       id, quaerat voluptates quos accusantium, veritatis consectetur sit
       accusamus dignissimos nisi soluta expedita ullam repellat saepe delectus
       repudiandae cupiditate.
-    </p>
+    </Paragraph>
   </section>
 )
 
