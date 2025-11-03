@@ -10,9 +10,14 @@ export const ThemeButton = styled.button`
   font-weight: bold;
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
-  background-color: #282a35;
+  color: ${(props) => props.theme.ButtonColor};
+  background-color: ${(props) => props.theme.PrincipalColor};
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 16px;
+  }
 `
 
 export const SidebarContainer = styled.div`

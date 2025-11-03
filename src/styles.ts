@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
   font-family: "Inter", sans-serif;
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: ${(props) => props.theme.BackgroundColor}
 }
 `
 
