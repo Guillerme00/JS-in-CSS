@@ -20,11 +20,15 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 128px auto;
+  grid-template-columns: 200px auto;
   column-gap: 56px;
 
+  @media (max-width: 768px) {
+    max-width: 80%;
+    display: block;
+  }
+
   img {
-    max-width: 100%;
-    border-radius: 50%;
+    width: 100%;
   }
 `
